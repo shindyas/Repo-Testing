@@ -9,8 +9,7 @@ Driver : Chrome
 
 
 ---Claim---
-For the first time I try to learn and use the tools, so need to setting up the configuration.
-In additonal, at early time I consider to use data driven for multiple data, but I run of time. I'm eager to improve my knowledge during time, if you willing to give me the chance.
+At this test for the first time I try to learn and use the tools Robotframework, so I need to set up the configuration. In addition, at an early time I considered using data driven for multiple data, but I ran out of time. I'm eager to improve my knowledge over time, if you are willing to give me the chance.
 
 Hope my submission close enough to pass the test.
 
