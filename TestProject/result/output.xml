@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot rpa="false" generated="20220619 22:33:26.332" schemaversion="2" generator="Robot 4.1.3 (Python 2.7.18 on darwin)">
+<suite source="/Users/shindyas/PycharmProjects/TestProject/Tests/TC_LO_001.robot" id="s1" name="TC LO 001">
+<test id="s1-t1" name="Login Email Valid">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220619 22:33:26.717" level="INFO">Opening browser 'chrome' to base url 'https://kumparan.com/'.</msg>
+<status status="PASS" endtime="20220619 22:33:45.497" starttime="20220619 22:33:26.716"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" endtime="20220619 22:33:45.764" starttime="20220619 22:33:45.499"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220619 22:33:50.766" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" endtime="20220619 22:33:50.766" starttime="20220619 22:33:45.765"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>xpath://*[@id="onesignal-slidedown-cancel-button"]</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20220619 22:33:50.768" level="INFO">Clicking button 'xpath://*[@id="onesignal-slidedown-cancel-button"]'.</msg>
+<status status="PASS" endtime="20220619 22:33:51.014" starttime="20220619 22:33:50.767"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>xpath://*[@id="content"]/div/div/div[1]/div/div[1]/nav/div/div/div[3]/button</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20220619 22:33:51.015" level="INFO">Clicking button 'xpath://*[@id="content"]/div/div/div[1]/div/div[1]/nav/div/div/div[3]/button'.</msg>
+<status status="PASS" endtime="20220619 22:33:51.928" starttime="20220619 22:33:51.014"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>xpath://*[@id="content"]/div/div/div[2]/div/div[2]/div[1]/div/div[1]/div/input</arg>
+<arg>${email}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220619 22:33:51.929" level="INFO">Typing text 'shindyadelia@gmail.com' into text field 'xpath://*[@id="content"]/div/div/div[2]/div/div[2]/div[1]/div/div[1]/div/input'.</msg>
+<status status="PASS" endtime="20220619 22:33:53.237" starttime="20220619 22:33:51.929"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>xpath://*[@id="content"]/div/div/div[2]/div/div[2]/div[2]/div/div[1]/div[1]/input</arg>
+<arg>${password}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220619 22:33:53.238" level="INFO">Typing text 'satuduatiga' into text field 'xpath://*[@id="content"]/div/div/div[2]/div/div[2]/div[2]/div/div[1]/div[1]/input'.</msg>
+<status status="PASS" endtime="20220619 22:33:53.563" starttime="20220619 22:33:53.237"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>xpath://*[@id="content"]/div/div/div[2]/div/div[2]/div[4]/button</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20220619 22:33:53.564" level="INFO">Clicking button 'xpath://*[@id="content"]/div/div/div[2]/div/div[2]/div[4]/button'.</msg>
+<status status="PASS" endtime="20220619 22:33:53.722" starttime="20220619 22:33:53.564"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220619 22:33:58.724" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" endtime="20220619 22:33:58.725" starttime="20220619 22:33:53.723"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20220619 22:33:59.297" starttime="20220619 22:33:58.726"/>
+</kw>
+<status status="PASS" endtime="20220619 22:33:59.298" starttime="20220619 22:33:26.715"/>
+</test>
+<status status="PASS" endtime="20220619 22:33:59.303" starttime="20220619 22:33:26.337"/>
+</suite>
+<statistics>
+<total>
+<stat fail="0" skip="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" skip="0" id="s1" name="TC LO 001" pass="1">TC LO 001</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
